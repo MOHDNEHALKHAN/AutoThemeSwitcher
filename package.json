@@ -20,7 +20,10 @@
       }
     ]
   },
-  "activationEvents": ["*"],
+  "activationEvents": [
+  "onStartupFinished",
+  "onCommand:autoThemeSwitcher.switchTheme"
+],
   "publisher": "mohdnehalkhan",
   "scripts": {
     "lint": "eslint .",
