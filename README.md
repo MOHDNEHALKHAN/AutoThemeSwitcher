@@ -1,65 +1,51 @@
-# autothemeswitcher README
+# AutoThemeSwitcher
 
-This is the README for your extension "autothemeswitcher". After writing up a brief description, we recommend including the following sections.
+AutoThemeSwitcher is a Visual Studio Code extension that **automatically switches between light and dark themes** based on the time of day.
 
-## Features
+## 🌟 Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- **Automatic Theme Switching**  
+  - **Light Mode** (6 AM - 6 PM)  
+  - **Dark Mode** (6 PM - 6 AM)  
+- Runs in the background without manual intervention.
+- Works with all VS Code themes.
 
-For example if there is an image subfolder under your extension project workspace:
+## 🚀 Installation
 
-\!\[feature X\]\(images/feature-x.png\)
+1. Open **VS Code**.
+2. Go to **Extensions (`Ctrl+Shift+X`)**.
+3. Search for **"AutoThemeSwitcher"**.
+4. Click **Install**.
+5. Reload VS Code if needed.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## ⚙️ Usage
 
-## Requirements
+Once installed, the extension runs **automatically**.  
+To trigger the theme switch manually:
+1. Open the **Command Palette** (`Ctrl+Shift+P`).
+2. Run: **"Switch Theme Automatically"**.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+## 🛠️ Requirements
 
-## Extension Settings
+- **VS Code 1.98.0+**
+- No additional dependencies required.
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+## 🔧 Extension Settings
 
-For example:
+This extension does not require any manual configuration.
 
-This extension contributes the following settings:
+## 🐞 Known Issues
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+- If VS Code is open during a theme switch, the UI may take a few seconds to update.
 
-## Known Issues
+## 📌 Release Notes
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+### **v0.0.1**
+- Initial release with automatic theme switching.
 
 ---
 
-## Working with Markdown
+### 💡 Feedback & Support
+If you encounter issues or have suggestions, feel free to open an issue on GitHub.
 
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+🚀 **Enjoy coding with the perfect theme at the perfect time!**

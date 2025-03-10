@@ -3,22 +3,25 @@
   "displayName": "AutoThemeSwitcher",
   "description": "Automatically switches between light and dark themes in VS Code based on the time of day (Light from 6 AM to 6 PM, Dark from 6 PM to 6 AM).",
   "version": "0.0.1",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/MOHDNEHALKHAN/AutoThemeSwitcher.git"
+},
   "engines": {
     "vscode": "^1.98.0"
   },
-  "categories": [
-    "Other"
-  ],
+  "categories": ["Other"],
   "main": "./extension.js",
   "contributes": {
-    "commands": [{
-      "command": "autoThemeSwitcher.switchTheme",
-      "title": "Switch Theme Automatically"
-    }]
+    "commands": [
+      {
+        "command": "autoThemeSwitcher.switchTheme",
+        "title": "Switch Theme Automatically"
+      }
+    ]
   },
   "activationEvents": ["*"],
-  "publisher": "MOHD NEHAL KHAN"
-}
+  "publisher": "mohdnehalkhan",
   "scripts": {
     "lint": "eslint .",
     "pretest": "npm run lint",
